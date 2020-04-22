@@ -204,7 +204,7 @@
     </dependencies>
 
     <build>
-        <finalName>ccs</finalName>
+        <finalName>test-system</finalName>
 
         <resources>
             <resource><!-- 扫描替换 -->
