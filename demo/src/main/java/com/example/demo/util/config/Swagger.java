@@ -18,7 +18,7 @@ public class Swagger {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.honeywell.tms.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.xxx.xxx.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
